@@ -14504,3 +14504,272 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1451102638.435
     'REQUEST_TIME' => 1451102638
 ]
+2016-04-01 15:00:30 [::1][-][-][error][yii\base\ErrorException:4096] exception 'yii\base\ErrorException' with message 'Object of class yii\web\Response could not be converted to string' in E:\work\lulucms2\vendor\yiisoft\yii2\web\Response.php:389
+Stack trace:
+#0 E:\work\lulucms2\vendor\yiisoft\yii2\web\Response.php(389): yii\base\ErrorHandler->handleError(4096, 'Object of class...', 'E:\\work\\lulucms...', 389, Array)
+#1 E:\work\lulucms2\vendor\yiisoft\yii2\web\Response.php(314): yii\web\Response->sendContent()
+#2 E:\work\lulucms2\vendor\yiisoft\yii2\base\Application.php(381): yii\web\Response->send()
+#3 E:\work\lulucms2\install.php(28): yii\base\Application->run()
+#4 {main}
+2016-04-01 15:00:30 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/complete'
+]
+
+$_COOKIE = [
+    '_csrf' => 'c826946e247fe73eb74ab887564509d455475c6f07b2ccf259bd2de2f49007eca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EcwIFZGnSiCnMTNf8xOglHqZwfKfi29N\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 UBrowser/5.6.11072.6 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/lulucms2/install.php?r=site/progress'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=c826946e247fe73eb74ab887564509d455475c6f07b2ccf259bd2de2f49007eca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EcwIFZGnSiCnMTNf8xOglHqZwfKfi29N%22%3B%7D'
+    'PATH' => 'E:\\Program Files\\php;C:\\Program Files\\Broadcom\\Broadcom 802.11 Network Adapter\\Driver;F:\\Java\\jdk1.8.0_20\\bin;F:\\Java\\jdk1.8.0_20\\jre\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;F:\\adt-bundle-windows-x86_64-20140630\\sdk\\platform-tools;F:\\adt-bundle-windows-x86_64-20140630\\sdk\\tools;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\Program Files\\TortoiseSVN\\bin; C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\;E:\\Program Files\\Apache24\\bin;E:\\Program Files\\mysql\\bin;I:\\Git\\Git\\bin;E:\\Python27;E:\\Program Files\\node;E:\\Program Files\\node\\;E:\\Program Files\\redis;E:\\Program Files\\mysql\\bin;C:\\bin;E:\\work\\phpunit;C:\\Program Files\\Oracle\\VirtualBox;C:\\Program Files\\Boot2Docker for Windows;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;E:\\Python27\\Scripts'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win64) OpenSSL/1.0.2d PHP/5.6.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/work'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/work'
+    'SERVER_ADMIN' => 'webmaster@dummy-host2.example.com'
+    'SCRIPT_FILENAME' => 'E:/work/lulucms2/install.php'
+    'REMOTE_PORT' => '60992'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/complete'
+    'REQUEST_URI' => '/lulucms2/install.php?r=site/complete'
+    'SCRIPT_NAME' => '/lulucms2/install.php'
+    'PHP_SELF' => '/lulucms2/install.php'
+    'REQUEST_TIME_FLOAT' => 1459494030.563
+    'REQUEST_TIME' => 1459494030
+]
+2016-04-01 15:29:26 [::1][-][-][error][登录后台] 用户名：zxx，密码：123456，您没有权限登录管理系统
+    in E:\work\lulucms2\source\LuLu.php:240
+    in E:\work\lulucms2\backend\controllers\SiteController.php:60
+    in E:\work\lulucms2\source\core\base\BaseController.php:131
+2016-04-01 15:29:25 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = [
+    'LoginForm' => [
+        'username' => 'zxx'
+        'password' => '123456'
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => 'c826946e247fe73eb74ab887564509d455475c6f07b2ccf259bd2de2f49007eca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EcwIFZGnSiCnMTNf8xOglHqZwfKfi29N\";}'
+    'PHPSESSID' => 'eumfllopljvd03vjoa2st9bnn0'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'error' => -1
+    ]
+    'error' => [
+        0 => '用户名：zxx，密码：123456，您没有权限登录管理系统'
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '58'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 UBrowser/5.6.11072.6 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://localhost/lulucms2/admin.php?r=site/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=c826946e247fe73eb74ab887564509d455475c6f07b2ccf259bd2de2f49007eca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EcwIFZGnSiCnMTNf8xOglHqZwfKfi29N%22%3B%7D; PHPSESSID=eumfllopljvd03vjoa2st9bnn0'
+    'PATH' => 'E:\\Program Files\\php;C:\\Program Files\\Broadcom\\Broadcom 802.11 Network Adapter\\Driver;F:\\Java\\jdk1.8.0_20\\bin;F:\\Java\\jdk1.8.0_20\\jre\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;F:\\adt-bundle-windows-x86_64-20140630\\sdk\\platform-tools;F:\\adt-bundle-windows-x86_64-20140630\\sdk\\tools;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\Program Files\\TortoiseSVN\\bin; C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\;E:\\Program Files\\Apache24\\bin;E:\\Program Files\\mysql\\bin;I:\\Git\\Git\\bin;E:\\Python27;E:\\Program Files\\node;E:\\Program Files\\node\\;E:\\Program Files\\redis;E:\\Program Files\\mysql\\bin;C:\\bin;E:\\work\\phpunit;C:\\Program Files\\Oracle\\VirtualBox;C:\\Program Files\\Boot2Docker for Windows;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;E:\\Python27\\Scripts'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win64) OpenSSL/1.0.2d PHP/5.6.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/work'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/work'
+    'SERVER_ADMIN' => 'webmaster@dummy-host2.example.com'
+    'SCRIPT_FILENAME' => 'E:/work/lulucms2/admin.php'
+    'REMOTE_PORT' => '62066'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site/login'
+    'REQUEST_URI' => '/lulucms2/admin.php?r=site/login'
+    'SCRIPT_NAME' => '/lulucms2/admin.php'
+    'PHP_SELF' => '/lulucms2/admin.php'
+    'REQUEST_TIME_FLOAT' => 1459495765.535
+    'REQUEST_TIME' => 1459495765
+]
+2016-04-01 15:29:31 [::1][-][-][error][登录后台] 用户名：zxx，密码：123456，您没有权限登录管理系统
+    in E:\work\lulucms2\source\LuLu.php:240
+    in E:\work\lulucms2\backend\controllers\SiteController.php:60
+    in E:\work\lulucms2\source\core\base\BaseController.php:131
+2016-04-01 15:29:31 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = [
+    'LoginForm' => [
+        'username' => 'zxx'
+        'password' => '123456'
+    ]
+]
+
+$_COOKIE = [
+    '_csrf' => 'c826946e247fe73eb74ab887564509d455475c6f07b2ccf259bd2de2f49007eca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"EcwIFZGnSiCnMTNf8xOglHqZwfKfi29N\";}'
+    'PHPSESSID' => 'apn4ltv10nii1mdkh038vgbm67'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'error' => -1
+    ]
+    'error' => [
+        0 => '用户名：zxx，密码：123456，您没有权限登录管理系统'
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '58'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 UBrowser/5.6.11072.6 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://localhost/lulucms2/admin.php?r=site/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=c826946e247fe73eb74ab887564509d455475c6f07b2ccf259bd2de2f49007eca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22EcwIFZGnSiCnMTNf8xOglHqZwfKfi29N%22%3B%7D; PHPSESSID=apn4ltv10nii1mdkh038vgbm67'
+    'PATH' => 'E:\\Program Files\\php;C:\\Program Files\\Broadcom\\Broadcom 802.11 Network Adapter\\Driver;F:\\Java\\jdk1.8.0_20\\bin;F:\\Java\\jdk1.8.0_20\\jre\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;F:\\adt-bundle-windows-x86_64-20140630\\sdk\\platform-tools;F:\\adt-bundle-windows-x86_64-20140630\\sdk\\tools;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\Program Files\\TortoiseSVN\\bin; C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\;E:\\Program Files\\Apache24\\bin;E:\\Program Files\\mysql\\bin;I:\\Git\\Git\\bin;E:\\Python27;E:\\Program Files\\node;E:\\Program Files\\node\\;E:\\Program Files\\redis;E:\\Program Files\\mysql\\bin;C:\\bin;E:\\work\\phpunit;C:\\Program Files\\Oracle\\VirtualBox;C:\\Program Files\\Boot2Docker for Windows;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;E:\\Python27\\Scripts'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win64) OpenSSL/1.0.2d PHP/5.6.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'E:/work'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/work'
+    'SERVER_ADMIN' => 'webmaster@dummy-host2.example.com'
+    'SCRIPT_FILENAME' => 'E:/work/lulucms2/admin.php'
+    'REMOTE_PORT' => '62057'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site/login'
+    'REQUEST_URI' => '/lulucms2/admin.php?r=site/login'
+    'SCRIPT_NAME' => '/lulucms2/admin.php'
+    'PHP_SELF' => '/lulucms2/admin.php'
+    'REQUEST_TIME_FLOAT' => 1459495771.072
+    'REQUEST_TIME' => 1459495771
+]
+2016-04-01 15:31:27 [127.0.0.1][-][-][error][登录后台] 用户名：zxx，密码：123456，您没有权限登录管理系统
+    in E:\work\lulucms2\source\LuLu.php:240
+    in E:\work\lulucms2\backend\controllers\SiteController.php:60
+    in E:\work\lulucms2\source\core\base\BaseController.php:131
+2016-04-01 15:31:26 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = [
+    'LoginForm' => [
+        'username' => 'zxx'
+        'password' => '123456'
+    ]
+]
+
+$_COOKIE = [
+    'ECS' => [
+        'visit_times' => '1'
+    ]
+    '__utma' => '111872281.1059810815.1455604703.1455604703.1455604703.1'
+    '__utmz' => '111872281.1455604703.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    '_identity' => '39cd974225a7e77a5afdde98650b0f06d53d1249a24277394cbdc19c53d6434da:2:{i:0;s:9:\"_identity\";i:1;s:50:\"[10000,\"Od9p1Twm30EAHT_uJ5xNl0VF5QZyVNPO\",2592000]\";}'
+    'rememberMe' => 'dcdbb51566140075af391f88a59e3c5ab783eb672bec22cfd91d117749e22fd0a:2:{i:0;s:10:\"rememberMe\";i:1;s:11:\"15810508608\";}'
+    'PHPSESSID' => '063ss8he4lj5nm7iokmau4t223'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'error' => -1
+    ]
+    'error' => [
+        0 => '用户名：zxx，密码：123456，您没有权限登录管理系统'
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/lulucms2/admin.php?r=site/login'
+    'HTTP_COOKIE' => 'ECS[visit_times]=1; __utma=111872281.1059810815.1455604703.1455604703.1455604703.1; __utmz=111872281.1455604703.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _identity=39cd974225a7e77a5afdde98650b0f06d53d1249a24277394cbdc19c53d6434da%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A50%3A%22%5B10000%2C%22Od9p1Twm30EAHT_uJ5xNl0VF5QZyVNPO%22%2C2592000%5D%22%3B%7D; rememberMe=dcdbb51566140075af391f88a59e3c5ab783eb672bec22cfd91d117749e22fd0a%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22rememberMe%22%3Bi%3A1%3Bs%3A11%3A%2215810508608%22%3B%7D; PHPSESSID=063ss8he4lj5nm7iokmau4t223'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '58'
+    'PATH' => 'E:\\Program Files\\php;C:\\Program Files\\Broadcom\\Broadcom 802.11 Network Adapter\\Driver;F:\\Java\\jdk1.8.0_20\\bin;F:\\Java\\jdk1.8.0_20\\jre\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;F:\\adt-bundle-windows-x86_64-20140630\\sdk\\platform-tools;F:\\adt-bundle-windows-x86_64-20140630\\sdk\\tools;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;D:\\Program Files\\TortoiseSVN\\bin; C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\;E:\\Program Files\\Apache24\\bin;E:\\Program Files\\mysql\\bin;I:\\Git\\Git\\bin;E:\\Python27;E:\\Program Files\\node;E:\\Program Files\\node\\;E:\\Program Files\\redis;E:\\Program Files\\mysql\\bin;C:\\bin;E:\\work\\phpunit;C:\\Program Files\\Oracle\\VirtualBox;C:\\Program Files\\Boot2Docker for Windows;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin;E:\\Python27\\Scripts'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.16 (Win64) OpenSSL/1.0.2d PHP/5.6.11'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/work'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/work'
+    'SERVER_ADMIN' => 'webmaster@dummy-host2.example.com'
+    'SCRIPT_FILENAME' => 'E:/work/lulucms2/admin.php'
+    'REMOTE_PORT' => '62192'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site/login'
+    'REQUEST_URI' => '/lulucms2/admin.php?r=site/login'
+    'SCRIPT_NAME' => '/lulucms2/admin.php'
+    'PHP_SELF' => '/lulucms2/admin.php'
+    'REQUEST_TIME_FLOAT' => 1459495886.89
+    'REQUEST_TIME' => 1459495886
+]
