@@ -1,3 +1,8 @@
+copy other's code 
+
+下面是原作
+
+
 # LuLu CMS2
 1、LuLu CMS 2
 
